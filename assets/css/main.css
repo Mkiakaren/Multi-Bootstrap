@@ -257,6 +257,148 @@ a {
   margin-left: 5px;
 }
 
+.pricing-subtitle {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.pricing-title {
+  color: #102040;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+.pricing-card {
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  height: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+.highlighted-plan {
+  border-top: 3px solid #ff5733;
+}
+
+.plan-title {
+  font-size: 20px;
+  color: #102040;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 48px;
+  color: #ff5733;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.price-currency {
+  font-size: 24px;
+  vertical-align: top;
+  position: relative;
+  top: 6px;
+}
+
+.price-unit {
+  font-size: 16px;
+  color: #999;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.feature-item {
+  padding: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.feature-icon-check {
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.feature-icon-times {
+  color: #ccc;
+  margin-right: 10px;
+}
+
+.btn-buy {
+  background-color: #fff;
+  color: #ff5733;
+  border: 1px solid #ff5733;
+  padding: 6px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.btn-buy:hover {
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.btn-buy-highlighted {
+  background-color: #ff5733;
+  color: #fff;
+  border: 1px solid #ff5733;
+  padding: 6px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.btn-buy-highlighted:hover {
+  background-color: #e64a2e;
+}
+
+.disabled-text {
+  color: #ccc;
+}
+
+.faq-section {
+  margin-top: 60px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px 0;
+}
+
+.faq-question {
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-icon {
+  color: #ff5733;
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.question-text {
+  color: #102040;
+  font-weight: 500;
+}
+
+.faq-answer {
+  color: #666;
+  margin-top: 10px;
+  padding-left: 35px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 /* Footer */
 .footer {
   background-color: #060606;
